@@ -1,0 +1,378 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Signup Styling*/
+
+
+
+/* Header Styling */
+
+.next-button{
+    border-radius: 100px; 
+    width: 200px; 
+    height: 70px; 
+    margin: 10px; 
+    position: absolute; 
+    transform: translate(-750px, 700px); 
+    background: rgb(255, 0, 0); 
+    font-size: x-large; 
+    color: aliceblue;
+}
+
+.login{
+    border-radius: 100px; 
+    width: 200px; 
+    height: 70px; 
+    margin: 10px; 
+    position: absolute; 
+    transform: translate(-750px, 800px); 
+    border-color: #ff0000;
+    background: rgb(0, 0, 0); 
+    font-size: x-large; 
+    color: aliceblue;
+}
+
+.next-button:hover{
+    background-color: #9a1010;
+    color: #7d7c79;
+}
+
+.login:hover{
+    background-color: #221d1d;
+    color: #7d7c79;
+}
+
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav h1 {
+    font-size: 1.8em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home h2 {
+    font-size: 2.5em;
+}
+
+/* Menu Section */
+.menu {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.buy-button{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: green;
+}
+
+/* About Section */
+.about {
+    background-color: #EAE2B7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact , .SignUp{
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.circle{
+    width: 30px;
+    transform: translate(50%);
+}
+
+
+.contact form , 
+.SignUp form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.SignUp form label,
+.SignUp form input,
+.SignUp form textarea,
+.SignUp form button
+.contact form label,
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.SignUp form input,
+.SignUp form textarea 
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button , .SignUp form button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.contact form button:hover , .SignUp form button:hover {
+    background-color: #9a1010;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(83, 81, 81);
+    box-shadow: 0 0 2px 4px rgba(140, 138, 138, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*1s Item order 2nd page styling*/
+
+.item-order{
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.item-order h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.item-order p , .ltem-order img{
+    margin-top: 100px;
+    font-size: 15px;
+}
+
+.item-order p{
+    margin-right: 250px; 
+    margin-left: 250px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.Next-button{
+    border-radius: 100px; 
+    width: 200px; 
+    height: 70px; 
+    margin: 10px; 
+    background: rgb(255, 0, 0); 
+    font-size: x-large; 
+    color: aliceblue;
+}
+
+.Next-button:hover{
+    background-color: #9a1010;
+    color: #7d7c79;
+}
+
+.Back-button{
+    border-radius: 100px; 
+    width: 200px; 
+    height: 70px; 
+    margin: 10px; 
+    background: rgb(65, 64, 64); 
+    font-size: x-large; 
+    color: aliceblue;
+}
+
+.Back-button:hover{
+    background-color: #1f1e1e;
+    color: #7d7c79;
+}
+
+.Logo-img{
+    width: 100px; 
+    position: absolute; 
+    transform: translate(-735px, -925px)
+}
+
+/*1s Item order 2nd page styling*/
+
+.item-order2{
+    background-color: #000000;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.item-order2 h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.item-order2 p , .ltem-order img{
+    margin-top: 100px;
+    font-size: 15px;
+    color: white;
+}
+
+.item-order2 p{
+    margin-right: 250px; 
+    margin-left: 250px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.Logob-img{
+    width: 100px; 
+    position: absolute; 
+    transform: translate(-735px, -725px)
+}
+
+/* Transaction side */
+
+.Trasaction{
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.Trasaction h1{
+    position:absolute;
+    transform: translateY(-395px);
+    margin-left: 370px;
+    font-size: 15px;
+}
+
+.Trasaction h2{
+    position:absolute;
+    transform: translateY(-240px);
+    margin-left: 460px;
+    font-size: 35px;
+}
+
+.Trasaction h3{
+    position:absolute;
+    transform: translateY(-398px);
+    margin-left: 515px;
+    font-size: 15px;
+    color: #ff0000;
+}
+
+.Trasaction button{
+    position: absolute; 
+    transform: translate(-565px , 690px);
+    background-color: green;
+    color: aliceblue;
+    border-radius: 30px; 
+    width: 200px; 
+    height: 70px; 
+    margin: 10px; 
+    font-size: x-large; 
+}
+
+.Trasaction button:hover{
+    background-color: rgb(6, 46, 6);
+    color: #7d7c79;
+}
